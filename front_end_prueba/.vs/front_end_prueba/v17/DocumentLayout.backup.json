@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carpiom\\Downloads\\prueba_-FULLSTACK\\front_end_prueba\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5B4506-F4DB-44CB-B13E-2C0261241303}|front_end_prueba.csproj|c:\\users\\carpiom\\downloads\\prueba_-fullstack\\front_end_prueba\\pages\\editartarea.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5B4506-F4DB-44CB-B13E-2C0261241303}|front_end_prueba.csproj|solutionrelative:pages\\editartarea.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5B4506-F4DB-44CB-B13E-2C0261241303}|front_end_prueba.csproj|c:\\users\\carpiom\\downloads\\prueba_-fullstack\\front_end_prueba\\pages\\editartarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF5B4506-F4DB-44CB-B13E-2C0261241303}|front_end_prueba.csproj|solutionrelative:pages\\editartarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditarTarea.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\carpiom\\Downloads\\prueba_-FULLSTACK\\front_end_prueba\\Pages\\EditarTarea.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\EditarTarea.cshtml.cs",
+              "ToolTip": "C:\\Users\\carpiom\\Downloads\\prueba_-FULLSTACK\\front_end_prueba\\Pages\\EditarTarea.cshtml.cs",
+              "RelativeToolTip": "Pages\\EditarTarea.cshtml.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAF0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T20:52:39.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditarTarea.cshtml",
+              "DocumentMoniker": "C:\\Users\\carpiom\\Downloads\\prueba_-FULLSTACK\\front_end_prueba\\Pages\\EditarTarea.cshtml",
+              "RelativeDocumentMoniker": "Pages\\EditarTarea.cshtml",
+              "ToolTip": "C:\\Users\\carpiom\\Downloads\\prueba_-FULLSTACK\\front_end_prueba\\Pages\\EditarTarea.cshtml",
+              "RelativeToolTip": "Pages\\EditarTarea.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T20:25:39.115Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+﻿@page
+@model EditarTareaModel
+@{
+    ViewData["Title"] = "Editar Tarea";
+}
+
+<h2>Editar Tarea</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Tarea.Id" />
+
+    <div class="mb-3">
+        <label class="form-label">Título</label>
+        <input type="text" class="form-control" asp-for="Tarea.Titulo" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Descripción</label>
+        <textarea class="form-control" asp-for="Tarea.Descripcion" required></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Fecha de Vencimiento</label>
+        <input type="datetime-local" class="form-control" asp-for="Tarea.FechaVencimiento" required />
+    </div>
+
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" asp-for="Tarea.EsCompletada" />
+        <label class="form-check-label">¿Está completada?</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+    <a asp-page="/Index" class="btn btn-secondary">Cancelar</a>
+</form>

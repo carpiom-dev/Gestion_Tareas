@@ -1,0 +1,24 @@
+﻿@page
+@model front_end_prueba.Pages.LoginModel
+@{
+    ViewData["Title"] = "Iniciar Sesión";
+}
+
+<h2>Iniciar Sesión</h2>
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger">@Model.ErrorMessage</div>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label>Usuario</label>
+        <input type="text" asp-for="User.Usuario" value="admin@gmail.com" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Contraseña</label>
+        <input type="password" asp-for="User.Clave" value="Admin123!" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Ingresar</button>
+</form>

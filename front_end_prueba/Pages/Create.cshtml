@@ -1,0 +1,23 @@
+﻿@page
+@model CreateModel
+@{
+    ViewData["Title"] = "Crear";
+}
+<h2>Agregar Nueva Tarea</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="Titulo">Título</label>
+        <input type="text" asp-for="Tarea.Titulo" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="Descripcion">Descripción</label>
+        <textarea asp-for="Tarea.Descripcion" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="FechaVencimiento">Fecha de Vencimiento</label>
+        <input type="date" asp-for="Tarea.FechaVencimiento" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+

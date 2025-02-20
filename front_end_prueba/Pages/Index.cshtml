@@ -1,0 +1,48 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Lista";
+}
+
+<div class="text-center">
+    <h2>Lista de Tareas</h2>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th>Fecha Creación</th>
+                <th>Fecha Vencimiento</th>
+                <th>Completada</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tarea in Model.Tareas)
+            {
+                @if (tarea.Activo)
+                {
+                    <tr>
+                        <td>@tarea.Id</td>
+                        <td>@tarea.Titulo</td>
+                        <td>@tarea.Descripcion</td>
+                        <td>@tarea.FechaCreacion.ToShortDateString()</td>
+                        <td>@tarea.FechaVencimiento.ToShortDateString()</td>
+                        <td>@(tarea.Completada ? "✅ Sí" : "❌ No")</td>
+                        <td>
+                            <a asp-page="/EditarTarea" asp-route-id="@tarea.Id" class="btn btn-warning btn-sm">Editar</a>
+                            <form method="post" asp-page-handler="Eliminar" asp-route-id="@tarea.Id" style="display:inline;">
+                                <button type="submit" class="btn btn-danger btn-sm"
+                                        onclick="return confirm('¿Estás seguro de que deseas eliminar esta tarea?');">
+                                    Eliminar
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
